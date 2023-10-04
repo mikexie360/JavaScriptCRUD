@@ -31,6 +31,7 @@ function createTask(){
     const name = prompt("Enter task name: ");
     Tasks.push(new Task(name));
 }
+
 // create a function that allows users to print out all Tasks
 function printAllTasks(){
     for(var i = 0; i< Tasks.length; i++){
