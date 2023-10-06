@@ -39,6 +39,7 @@ function printAllTasks(){
     }
 }
 
+// function to update a task by its name
 function updateATask(){
     // if there are no tasks, we cannot update any tasks.
     if (Tasks.length === 0){
@@ -70,6 +71,7 @@ function updateATask(){
     }
 }
 
+// function to delete a task by its name
 function deleteATask(){
     // if there are no tasks, we cannot delete any tasks.
     if (Tasks.length === 0){
